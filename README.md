@@ -1,17 +1,4 @@
 # Manejodearchivos
-manejo-archivos-datos/
-│
-├── src/
-│   └── AnalisisCodigosPostales.java
-│
-├── data/
-│   └── codigos_postales_hmo.csv
-│
-├── README.md
-│
-├── tiempo.txt
-└── reflexion.txt
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -59,22 +46,4 @@ public class AnalisisCodigosPostales {
             );
         }
 
-        # Manejo de Archivos de Datos - Códigos Postales de Hermosillo
-
-Este proyecto consiste en un programa en Java que analiza un archivo CSV con asentamientos de Hermosillo y sus códigos postales correspondientes.  
-El objetivo es determinar cuántos asentamientos comparten el mismo código postal.
-
-## 📌 Estructura del proyecto
-
-- `src/AnalisisCodigosPostales.java`: Código fuente del programa
-- `data/codigos_postales_hmo.csv`: Archivo de datos
-- `tiempo.txt`: Registro de tiempo invertido
-- `reflexion.txt`: Reflexión sobre los desafíos del proyecto
-
-## ▶️ Ejecución
-
-1. Asegúrate de tener Java instalado.
-2. Compila el programa:
-
-    }
-}
+    
